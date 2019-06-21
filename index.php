@@ -45,6 +45,9 @@ switch ($template) {
 	case 'scratch':
 		require_once 'scratch/index.php';
 		break;	
+	case 'package':
+	require_once 'package/index.php';
+	break;	
 	default:
 		require_once 'base/index.php';
 		break;
